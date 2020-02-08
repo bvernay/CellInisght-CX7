@@ -11,6 +11,9 @@ The tiff files are organised as follow:
 
 - **step 1:** organise the data by plate>well>time point with [Bulk Rename Utility](https://www.bulkrenameutility.co.uk/). Could write python or imagej script to do it.
 - **step 2:** rename the files according to the pattern below with a python script:
+
+![Ordered](reordered.png)
+
 - **step 3:** open each time point folder as a stack and make montage with Image>Stack>Make Montage... (imagej macro Make_montage.ijm)
 - **step 4:** per plate>well concatenate the 8 time points montage, done manually (could write a script or integrate it into Make_montage.ijm)
 - **step 5:** per plate>well, stack are aligned with Correct 3D drift plugin (the stack dimension must be swapped from z=8 to t=8), some stack are aligned 2 images at the time and the results are concatenated into a final t-stack
