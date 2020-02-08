@@ -7,7 +7,7 @@ The tiff files are organised as follow:
 - the image are vertically flip during the export (they are flipped back during processing in step 3)
 - The wells are scanned in spiral: FOV f00 or f01 is at the centre, then left rotating spiral. Stitching plugin in Fiji do not handle spiral, there is no tiles position file with the data
 
-
+![Spiral scan](spiral.png)
 
 - **step 1:** organise the data by plate>well>time point with [Bulk Rename Utility](https://www.bulkrenameutility.co.uk/). Could write python or imagej script to do it.
 - **step 2:** rename the files according to the pattern below with a python script:
