@@ -9,7 +9,7 @@ The tiff files are organised as follow:
 
 ![Spiral scan](spiral.png)
 
-- **step 1:** organise the data by plate>well>time point with [Bulk Rename Utility](https://www.bulkrenameutility.co.uk/). Could write python or imagej script to do it.
+- **step 1:** organise the data by plate>well>time point with [Bulk Rename Utility](https://www.bulkrenameutility.co.uk/){:target="_blank"}. Could write python or imagej script to do it.
 - **step 2:** rename the files according to the pattern below with a python script:
 
 ![Ordered](reordered.png)
